@@ -1,0 +1,29 @@
+body {
+    background-color: rgb(216, 157, 228);
+  }
+  
+  h1 {
+    color: blue;
+    text-align: center;
+  }
+  
+  p {
+    font-family: verdana;
+    font-size: 20px;
+  }
+
+  <div class="row">
+  <div class="column"></div>
+  <div class="column"></div>
+</div>
+.column {
+    float: left;
+    width: 100%;
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  

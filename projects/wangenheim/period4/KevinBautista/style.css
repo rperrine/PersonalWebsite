@@ -1,0 +1,25 @@
+body {
+    background-color: lightblue;
+  }/
+  
+  h1 {
+    color: whitesmoke;
+    text-align: center;
+  }
+
+  p {
+    font-family: verdana;
+    font-size: 20px;
+  }
+  .column {
+    float: left;
+    width:  100%;
+    background-image: url("https://assets3.thrillist.com/v1/image/2794471/size/sk-2017_04_standard_listing_desktop.jpg");
+  }
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  

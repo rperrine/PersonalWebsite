@@ -1,0 +1,19 @@
+
+body {
+    background-color:rgb(129, 171, 185);
+  }
+  
+  h1 {
+    color: blue;
+    text-align: center;
+  }
+  h3 {
+    color: blue;
+    text-align: center;
+  }
+  
+  p {
+    font-family: Arial;
+    font-size: 20px;
+  }
+  

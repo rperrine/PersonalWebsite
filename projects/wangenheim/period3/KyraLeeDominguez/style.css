@@ -1,0 +1,19 @@
+body {
+    background-color: turquoise;
+  }
+  
+  h1 {
+    color: white;
+    text-align: center;
+  }
+  .column {
+    float: left;
+    width: 50%;
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  

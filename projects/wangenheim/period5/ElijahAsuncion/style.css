@@ -1,0 +1,25 @@
+body {
+    background-color: lightblue;
+  }
+  
+  h1 {
+    color: black;
+    text-align: center;
+  }
+  
+  p {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+  }
+  .column {
+    float: left;
+    width: 50%;
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  

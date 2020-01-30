@@ -1,0 +1,27 @@
+body {
+    background-color:blue;
+  }
+  
+  h1 {
+    color:red;
+    text-align:left;
+  }
+  
+  p {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+  }
+  .column {
+    float: left;
+    width: 50%;
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+    
+
+  

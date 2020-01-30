@@ -1,0 +1,27 @@
+body {
+    background-color: cyan;
+  }
+  
+  h1 {
+    color: red;
+    text-align: center;font-size-adjust:50px ;
+  }
+  
+  p {
+    font-family: verdana;
+    font-size: 20px;
+  }
+  .column {
+    float: left;
+    width: 50%;
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  h2 {color: red;
+  text-align: left}
+  
+  

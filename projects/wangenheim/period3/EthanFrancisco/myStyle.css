@@ -1,0 +1,26 @@
+body {
+	background-color: lightcoral;
+  }
+  
+  h1 {
+	color: white;
+	text-align: center;
+  }
+  
+  p {
+	font-family: 'Verdanda';
+	font-size: 100px;
+  }
+  .column {
+	float: left;
+	width: 50%;
+  }
+  
+  .row:after {
+	content: "";
+	display: table;
+	clear: both;
+  }
+  
+  
+  

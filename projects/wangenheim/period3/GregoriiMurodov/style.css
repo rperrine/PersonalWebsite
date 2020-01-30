@@ -1,0 +1,22 @@
+body {
+    background-color: rgb(230, 68, 68);
+  }
+  
+  h1 {
+    color: plum;
+    text-align: center;
+  }
+  
+  p {
+    font-family: Verdana;
+    font-size: 20px;
+  }.column {
+    float: left;
+    width: 50%;
+  }
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+                

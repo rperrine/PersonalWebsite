@@ -1,0 +1,36 @@
+body {
+    background-color: rgb(48, 9, 9);
+  }
+  
+  h1 {
+    color: rgb(0, 46, 172);
+    text-align: center;
+  }
+  
+  p {
+    font-family: verdana;
+    font-size: 20px;
+  }
+  h1 {
+    color: white;
+    text-align: center;
+  }
+  
+  p {
+    font-family: verdana;
+    font-size: 20px;
+  }
+  .column {
+    float: left;
+    width: 50%;
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  h3{
+    Float: right; 
+  }
+  div{

@@ -1,0 +1,9 @@
+body {
+    background-color: purple;
+  }
+  
+.column {
+    float: left;
+    width: 50%;
+  }
+  
